@@ -11,6 +11,7 @@ h1{
   margin-left: 100px;
 }
 
-#code{
+#output{
   font-family: monospace;
+  margin-left: 800px;
 }
