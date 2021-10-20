@@ -1,6 +1,6 @@
 // code for lab 6.
 // code which defines ways of transportation and the specification of a vehicle.
-// @link   https://evanrobel.github.io/art101/lab5/index.html
+// @link   https://evanrobel.github.io/art101/lab6/index.html
 // @file   This file contains objects and arrays.
 // @author Evan Robel and Isaiah Roberts
 // @since  0.0.0
