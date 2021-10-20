@@ -1,0 +1,14 @@
+body{
+  margin-left: 100px;
+  background-color: skyblue;
+}
+
+p{
+    text-align: left;
+    margin-left: 0px;
+}
+
+h{
+    font-size: 40px;
+    border-bottom: 1px solid gray;
+}
