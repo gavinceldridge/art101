@@ -1,0 +1,24 @@
+body{
+  margin-left: 100px;
+  background-color: #ebab6c;
+}
+
+p{
+    text-align: left;
+    margin-left: 0px;
+}
+
+h{
+    font-size: 40px;
+    border-bottom: 1px solid gray;
+}
+
+#script{
+  font-size: 20px;
+}
+
+#output{
+  font-family: monospace;
+  font-size: 40px;
+  color: green;
+}
