@@ -1,12 +1,20 @@
+.special{
+  color: #f06eb5;
+  text-shadow: 1px 1px #ff0000;
+  text-decoration: underline;
+  font-family: monospace;
+  font-size: 23px;
+}
 body{
   margin-left: 100px;
-  background-color: #ebab6c;
+  background-color: #3d98e3;
 }
 
 p{
     text-align: left;
     margin-left: 0px;
     margin-right: 500px;
+    font-size: 19px;
 }
 
 h{
