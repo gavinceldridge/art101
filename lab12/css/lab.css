@@ -1,0 +1,33 @@
+body{
+  margin-left: 100px;
+  background-color: #844fa1;
+  color: white;
+}
+
+p{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 500px;
+    font-size: 19px;
+}
+
+h{
+    font-size: 40px;
+    border-bottom: 1px solid white;
+}
+
+#script{
+  font-size: 20px;
+}
+
+#output{
+  font-family: monospace;
+  font-size: 50px;
+  color: orange;
+  font-weight: bold;
+}
+
+#label{
+  font-size: 19px;
+  margin-left: 20px;
+}
