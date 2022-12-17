@@ -5,14 +5,63 @@ img {
 #before {
   float: left;
   position:relative;
+  border-style:solid;
 }
 
 #after {
   float: right;
   position: relative;
+  border-style:solid;
 }
 
 #randomizer {
  margin-left: 800px;
  margin-right: auto;
+}
+
+body {
+  background-color: #5cdb95
+}
+
+#saturation-pics img{
+  width: 250px;
+}
+
+#exposure-pics img{
+  width: 250px;
+}
+
+#contrast-pics img{
+  width: 250px;
+}
+
+#brightness-pics img{
+  width: 250px;
+}
+
+#hue-pics img {
+  width: 250px;
+}
+
+#title {
+  text-align: center;
+  padding: 5px;
+  background: #edf5e1;
+  margin: 20px;
+  font-family: copperplate;
+  font-size: 40px;
+  border-style: solid;
+  border-width: thick;
+  border-color: #05386b;
+}
+
+#title h1{
+  color: #05386b;
+}
+
+#title h5{
+  color: #05386b;
+}
+#Cheat_sheat{
+  margin-top: 300px;
 }

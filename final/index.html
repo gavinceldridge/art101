@@ -12,19 +12,11 @@
 
 </head>
 <body>
-<!-- Cheat Sheat section  -->
-	<div id = Cheat_sheat>
-	<h1> Image Adjustment Cheat Sheat </h1>
-	<ul>
-		<li>Saturation: The intensity of a color. High saturation results in more vivid colors while low saturation results in more muted colors.</l1>
-		<li>Exposure: The overall brightness of an image. Low exposure results in a dark picture and high exposure results in a bright picture.</a></l1>
-		<li>Constrast: A degree of difference between tones and colors in a photo. High contrast has less details, but more texture. Low contrast has less textures, but more details.</l1>
-		<li>Brightness: Simply how dark or light a picture is. Changing the brightness will affect all the pixels equally.</l1>
-		<li>Hue: The color within your image. </l1>
-
-
+<!-- Title at the top -->
+	<div id="title">
+		<h1> IMAGE ADJUSTER </h1>
+		<h5> A beginners guide to editing pictures </h5>
 	</div>
-	</ul>
 
 <!-- BEFORE Section -->
   <div id ="before">
@@ -38,16 +30,88 @@
 <!-- AFTER Section -->
    <div id="after">
   	 <p> After:</p>
-  	 <img src="" alt="Image preview..." id ="outputimg">
+  	 <!<img src="" alt="Image preview..." id ="outputimg">
+		 <button id = "download"> Download </button>
    </div>
 
 
    <!-- Randomizer Section -->
     <div id ="randomizer">
      	 <!-- Button needed to turn img into canvas for editing -->
-     	 <button id ='haveImageButton'> Press me once you have your image :D </button>
+			 <p> Saturation Slider </p>
+			 <input type ="range" min = "-100" max="100" step ="1" value="0"  id="img_Saturation">
+			 <div id = Saturation_val>
+				</div>
+			 <p> Exposure Slider </p>
+			 <input type ="range" min = "-100" max="100" step ="1" value="0"  id="img_Exposure">
+			 <div id = Exposure_val>
+				</div>
+			 <p> Contrast Slider </p>
+			 <input type ="range" min = "-100" max="100" step ="1" value="0"  id="img_Contrast">
+			 <div id = Contrast_Val>
+				</div>
+			 <p> Brightness Slider </p>
+			 	<input type ="range" min = "-100" max="100" step ="1" value="0"  id="img_brightness">
+				<div id = Brightness_Val>
+				</div>
+				<p> Hue Slider </p>
+				<input type ="range" min = "-100" max="100" step ="1" value="0"  id="img_hue">
+				<div id = Hue_Val>
+ 				</div>
+				<p>	 <button id = "applyButton"> Press me apply changes </button> </p>
+				<p>	 <button id = "random_var"> Randomize </button> </p>
     </div>
 
+	<!-- Cheat Sheat section  -->
+		<div id = "Cheat_sheat">
+		<h1> Image Adjustment Cheat Sheat </h1>
+		<ul>
+			<h2> Saturation - </h2>
+			<li>The intensity of a color. High saturation results in more vivid colors while low saturation results in more muted colors.</l1>
+
+			<div id = "saturation-pics">
+				<img src="img/Low-Sat.png">
+				<img src="img/Norm-Sat.png">
+				<img src="img/High-Sat.png">
+			</div>
+
+			<h2> Exposure - </h2>
+			<li>The overall brightness of an image. Low exposure results in a dark picture and high exposure results in a bright picture.</l1>
+
+			<div id = "exposure-pics">
+				<img src="img/Low-Exp.png">
+				<img src="img/Norm-Exp.png">
+				<img src="img/High-Exp.png">
+			</div>
+
+			<h2> Contrast - </h2>
+			<li>A degree of difference between tones and colors in a photo. High contrast has less details, but more texture. Low contrast has less textures, but more details.</l1>
+
+				<div id = "contrast-pics">
+					<img src="img/low-contrast.png">
+					<img src="img/Normal-contrast.png">
+					<img src="img/high-contrast.png">
+				</div>
+
+			<h2> Brightness - </h2>
+			<li>Simply how dark or light a picture is. Increasing the brightness will make the image more light and decreasing the brightness will make the picture darker.</l1>
+
+			<div id="brightness-pics">
+				<img src="img/less-bright.png">
+				<img src="img/nuetral-brightness.png">
+				<img src="img/more-bright.png">
+			</div>
+
+			<h2> Hue - </h2>
+			<li>Hue is color or the characteristic that distinguishes one color from another. Changing the hue will change the colorization of your picture.</l1>
+
+			<div id="hue-pics">
+				<img src="img/left-hue.png">
+				<img src="img/normal-hue.png">
+				<img src="img/right-hue.png">
+			</div>
+		</ul>
+		</div>
 
 </body>
 </html>
