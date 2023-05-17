@@ -1,48 +1,58 @@
 img {
-  width: 600px;
+  width: 500px;
 }
-
+#outputimg {
+  width: 500px;
+}
 #before {
   float: left;
   position:relative;
   border-style:solid;
+  border-color: #05386b;
 }
 
 #after {
   float: right;
   position: relative;
   border-style:solid;
+  border-color: #05386b;
 }
 
 #randomizer {
- margin-left: 800px;
- margin-right: auto;
+  text-align: center;
+  margin-right: 40%;
+  margin-left: 40%;
 }
 
 body {
   background-color: #5cdb95
 }
 
-#saturation-pics img{
-  width: 250px;
+#pictures {
+  float:right;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+/*
+#saturation-pics img {
+  position: relative;
+  top: 20px;
+  width: 200px;
 }
 
-#exposure-pics img{
-  width: 250px;
+#exposure-pics img {
+  position: relative;
+  top: 20px;
+  width: 200px;
 }
 
-#contrast-pics img{
-  width: 250px;
+#contrast-pics img {
+  width: 200px;
 }
 
-#brightness-pics img{
-  width: 250px;
-}
 
-#hue-pics img {
-  width: 250px;
-}
-
+*/
 #title {
   text-align: center;
   padding: 5px;
@@ -55,13 +65,139 @@ body {
   border-color: #05386b;
 }
 
-#title h1{
+#Cheat-sheet-title {
+  text-align: center;
+  background: #edf5e1;
+  padding: 2.5;
+  margin: 5px;
+  font-family: copperplate;
+  font-size: 20px;
+  border-style: solid;
+  border-width: thick;
+  border-color: #05386b;
+}
+
+#Cheat-sheet-title h2 {
+  color: #05386b;
+}
+#title h1 {
   color: #05386b;
 }
 
-#title h5{
+#title h5 {
   color: #05386b;
 }
-#Cheat_sheat{
-  margin-top: 300px;
+
+#Cheat_sheat {
+ margin-top: 200px;
+}
+
+/* Text for the Cheat Sheet */
+#Sat-section p{
+  font-size: 25px;
+  font-family: copperplate;
+  padding: 2px;
+  margin: 5px;
+  color: #05386b;
+}
+
+#Sat-section h2{
+  font-size: 30px;
+  font-family: copperplate;
+  color: #05386b;
+}
+
+#Exp-section p{
+  font-size: 25px;
+  font-family: copperplate;
+  padding: 2px;
+  margin: 5px;
+  color: #05386b;
+}
+
+#Exp-section h2{
+  font-size: 30px;
+  font-family: copperplate;
+  color: #05386b;
+}
+
+#Con-section p{
+  font-size: 25px;
+  font-family: copperplate;
+  padding: 2px;
+  margin: 5px;
+  color: #05386b;
+}
+
+#Con-section h2{
+  font-size: 30px;
+  font-family: copperplate;
+  color: #05386b;
+}
+
+#Bri-section p{
+  font-size: 25px;
+  font-family: copperplate;
+  padding: 2px;
+  margin: 5px;
+  color: #05386b;
+}
+
+#Bri-section h2{
+  font-size: 30px;
+  font-family: copperplate;
+  color: #05386b;
+}
+
+#Hue-section p{
+  font-size: 25px;
+  font-family: copperplate;
+  padding: 2px;
+  margin: 5px;
+  color: #05386b;
+}
+
+#Hue-section h2{
+  font-size: 30px;
+  font-family: copperplate;
+  color: #05386b;
+}
+/* End of Text section for the Cheat Sheet */
+
+/*
+#saturation-pics {
+  float: right;
+  position:relative;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+#exposure-pics {
+  float: right;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#contrast-pics {
+  float: right;
+  position:relative;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#brightness-pics {
+  text-align: right;
+  position:relative;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+#hue-pics {
+  float: right;
+  position:relative;
+  margin-top: 50px;
+  margin-right: 50px;
 }

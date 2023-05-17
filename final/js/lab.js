@@ -55,7 +55,7 @@ $("#imageInput").on("input", (function(){
     });
     this.render()
 });
-
+//
 
 
 // assigns the slider inputs into Variables
